@@ -318,14 +318,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sveltejs/adapter-auto@npm:2.0.0"
-  dependencies:
-    import-meta-resolve: ^2.2.0
+"@sveltejs/adapter-static@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@sveltejs/adapter-static@npm:2.0.1"
   peerDependencies:
-    "@sveltejs/kit": ^1.0.0
-  checksum: 7feeb24f5253b3ec4768c130f3498614e26d146e5b45560d5f3f8e3345a821f1c24fff578348fd756625af484f5b1079d33f6ecd1d43d395a192d2d193b5ab0f
+    "@sveltejs/kit": ^1.5.0
+  checksum: 910c28a7d2a5dfedebaf26a6c297e589d75c29012d6c021ae21f1e1da7d66445eaa54361ca680ef198a0a84da3445d059392bc14f0619e95d342c8f8b6078d95
   languageName: node
   linkType: hard
 
@@ -1644,13 +1642,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^2.2.0":
-  version: 2.2.2
-  resolution: "import-meta-resolve@npm:2.2.2"
-  checksum: 3a5910a6f914b5f06b307d7d1c25710bc56f12e21e923d5b2180dd0d53c6c2d51e7b55df26f168b63f5670babcaca9422b7a9429e877bbb8c1997d79bd65882b
-  languageName: node
-  linkType: hard
-
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
@@ -2833,7 +2824,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "super-ellipse2@workspace:."
   dependencies:
-    "@sveltejs/adapter-auto": ^2.0.0
+    "@sveltejs/adapter-static": ^2.0.1
     "@sveltejs/kit": ^1.15.2
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
