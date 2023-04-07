@@ -1,0 +1,70 @@
+{
+  "$schema": "https://github.com/SchemaStore/schemastore/raw/master/src/schemas/json/web-manifest.json",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "short_name": "SuperEllipse",
+  "theme_color": "#006eff",
+  "lang": "en",
+  "display": "standalone",
+  "name": "Super Ellipses SVG Generator",
+  "dir": "ltr",
+  "start_url": "/",
+  "icons": [
+    {
+      "purpose": "any",
+      "sizes": "16x16",
+      "type": "image/x-icon",
+      "src": "/favicon-16x16.ico"
+    },
+    {
+      "purpose": "any",
+      "sizes": "24x24",
+      "type": "image/x-icon",
+      "src": "/favicon-24x24.ico"
+    },
+    {
+      "purpose": "any",
+      "sizes": "32x32",
+      "type": "image/x-icon",
+      "src": "/favicon-32x32.ico"
+    },
+    {
+      "purpose": "any",
+      "sizes": "32x32",
+      "type": "image/png",
+      "src": "/icon-32x32.png"
+    },
+
+    {
+      "purpose": "any",
+      "sizes": "128x128",
+      "type": "image/png",
+      "src": "/icon-128x128.png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "192x192",
+      "type": "image/png",
+      "src": "/icon-192x192.png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "180x180",
+      "type": "image/png",
+      "src": "/icon-180x180.png"
+    },
+
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "/icon-512x512.png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "/maskable_icon.png"
+    }
+  ]
+}
