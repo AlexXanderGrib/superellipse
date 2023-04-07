@@ -329,7 +329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:^1.5.0":
+"@sveltejs/kit@npm:^1.15.2":
   version: 1.15.2
   resolution: "@sveltejs/kit@npm:1.15.2"
   dependencies:
@@ -1140,7 +1140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.5.0":
+"eslint-config-prettier@npm:^8.8.0":
   version: 8.8.0
   resolution: "eslint-config-prettier@npm:8.8.0"
   peerDependencies:
@@ -1188,7 +1188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.28.0":
+"eslint@npm:^8.37.0":
   version: 8.37.0
   resolution: "eslint@npm:8.37.0"
   dependencies:
@@ -2423,7 +2423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:^2.8.1":
+"prettier-plugin-svelte@npm:^2.10.0":
   version: 2.10.0
   resolution: "prettier-plugin-svelte@npm:2.10.0"
   peerDependencies:
@@ -2433,7 +2433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.0":
+"prettier@npm:^2.8.7":
   version: 2.8.7
   resolution: "prettier@npm:2.8.7"
   bin:
@@ -2834,22 +2834,22 @@ __metadata:
   resolution: "super-ellipse2@workspace:."
   dependencies:
     "@sveltejs/adapter-auto": ^2.0.0
-    "@sveltejs/kit": ^1.5.0
+    "@sveltejs/kit": ^1.15.2
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
     autoprefixer: ^10.4.14
-    eslint: ^8.28.0
-    eslint-config-prettier: ^8.5.0
+    eslint: ^8.37.0
+    eslint-config-prettier: ^8.8.0
     eslint-plugin-svelte3: ^4.0.0
     postcss: ^8.4.21
-    prettier: ^2.8.0
-    prettier-plugin-svelte: ^2.8.1
-    svelte: ^3.54.0
-    svelte-check: ^3.0.1
+    prettier: ^2.8.7
+    prettier-plugin-svelte: ^2.10.0
+    svelte: ^3.58.0
+    svelte-check: ^3.2.0
     tailwindcss: ^3.3.1
-    tslib: ^2.4.1
-    typescript: ^5.0.0
-    vite: ^4.2.0
+    tslib: ^2.5.0
+    typescript: ^5.0.4
+    vite: ^4.2.1
   languageName: unknown
   linkType: soft
 
@@ -2869,7 +2869,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:^3.0.1":
+"svelte-check@npm:^3.2.0":
   version: 3.2.0
   resolution: "svelte-check@npm:3.2.0"
   dependencies:
@@ -2944,7 +2944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^3.54.0":
+"svelte@npm:^3.58.0":
   version: 3.58.0
   resolution: "svelte@npm:3.58.0"
   checksum: c05625705961adc971e2bed6b86957c065f34e9d358390ad8dc953f8b4c956bb5ed297e3466f18c8080339cd26b973294489ee4094800fd75a8650fa1f6a9b52
@@ -3067,7 +3067,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.4.1":
+"tslib@npm:^2.5.0":
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
@@ -3101,7 +3101,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.0.0, typescript@npm:^5.0.3":
+"typescript@npm:^5.0.3, typescript@npm:^5.0.4":
   version: 5.0.4
   resolution: "typescript@npm:5.0.4"
   bin:
@@ -3111,7 +3111,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.0.0#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@^5.0.3#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
   version: 5.0.4
   resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"
   bin:
@@ -3178,7 +3178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.2.0":
+"vite@npm:^4.2.1":
   version: 4.2.1
   resolution: "vite@npm:4.2.1"
   dependencies:
