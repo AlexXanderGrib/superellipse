@@ -8,12 +8,13 @@
 <label class="bg-slate-100 p-2 px-4 rounded-lg">
 	<span class="text-sm font-semibold"><slot /></span>
 	<input
-		type="number"
+		{...$$props}
 		{min}
 		{max}
 		{step}
+		type="number"
 		bind:value
 		class="w-full px-3 py-2 bg-white mt-1 rounded-md"
 	/>
-	<input type="range" {min} {max} {step} bind:value class="w-full" />
+	<input {...$$props} {min} {max} {step} type="range" bind:value class="w-full" />
 </label>

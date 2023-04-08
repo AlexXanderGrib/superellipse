@@ -19,7 +19,21 @@
 		</div>
 
 		<form class="flex flex-col gap-2 items-stretch">
-			<InputRange bind:value={power} min="0.01" max="10" step="0.01">Power (N)</InputRange>
+			<InputRange bind:value={power} min="0.01" max="10" step="0.01" list="power-suggestions">Power (N)</InputRange>
+			<datalist id="power-suggestions">
+				<option value="0.5">Star</option>
+				<option value="1">Diamond</option>
+				<option value="2">Circle</option>
+				<option value="3"></option>
+				<option value="4"></option>
+				<option value="5"></option>
+				<option value="6"></option>
+				<option value="7"></option>
+				<option value="8"></option>
+				<option value="9"></option>
+				<option value="10"></option>
+			</datalist>
+
 			<InputRange bind:value={width} min="16" max="2048" step="1">Width</InputRange>
 			<InputRange bind:value={height} min="16" max="2048" step="1">Height</InputRange>
 
